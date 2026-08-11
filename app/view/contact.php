@@ -25,7 +25,7 @@
             <label for="message" class="form-label text-dark fw-medium">Message</label>
             <div class="input-group mb-3">
                 <span class="input-group-text text-secondary"><i class="bi bi-envelope-arrow-up-fill"></i></span>
-                <textarea class="form-control bg-light" placeholder="What's the issue?"></textarea>
+                <textarea class="form-control bg-light" placeholder="What's the issue?" id="message"></textarea>
             </div>
             <div class="container p-0">
                 <button type="submit" class="btn btn-dark text-light fw-medium w-100 rounded-5" name="SendMessage">Sent<i class="bi bi-send ms-2"></i></button>
