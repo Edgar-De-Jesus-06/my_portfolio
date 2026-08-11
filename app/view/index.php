@@ -18,6 +18,18 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
+
+        .visit {
+            color: black;
+            border: 1px solid black;
+            padding: 0.4em;
+            transition: .2s ease;
+        }
+
+        .visit:hover {
+            color: whitesmoke;
+            background-color: black;
+        }
     </style>
 </head>
 
@@ -42,56 +54,31 @@
                         <a href="#" class="nav-link navigation fw-medium me-5">Contact</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-light text-light fw-medium" style="background-color:#EB6552;">Let's Talk<i class="bi bi-arrow-return-left ms-2"></i></button>
+                <button type="button" class="btn btn-dark text-light fw-medium">Hire Me<i class="bi bi-arrow-return-left ms-2"></i></button>
             </div>
         </nav>
     </header>
 
     <main>
 
-        <div class="container-fluid m-0 p-0 d-flex justify-content-center position-relative" style="top: 70px;">
+        <div class="container-fluid m-0 p-0 d-flex justify-content-center position-relative" style="top: 100px;">
             <div class="container p-5 d-flex flex-column">
-                <div class="container mb-2" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                    <h5 class="text-secondary fw-bold">Hi I'm</h5>
-                    <h3 class="text-dark fw-bold">De Jesus Edgar</h3>
+                <div class="container p-0 mb-3" style="font-family:Arial, Helvetica, sans-serif">
+                    <h5 class="text-secondary fw-light mb-3">Hi There...</h5>
+                    <h1 class="text-dark fw-bold" style="font-size: 3em;">I am De Jesus Edgar a Independent Website Developer & Currently 3RD Year College Major in BSIT</h1>
                 </div>
-                <div class="container mb-2">
-                    <h1 class="fw-bold" style="font-size: 4em; color:#EB6552;">Website Developer</h1>
+                <div class="container p-0 mb-5 d-flex align-content-center">
+                    <a href="#" class="nav-link visit w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-facebook me-2"></i>Facebook</a>
+                    <a href="#" class="nav-link visit ms-3 w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-instagram me-2"></i>Instagram</a>
+                    <a href="https://github.com/Edgar-De-Jesus-06" class="nav-link visit ms-3 w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-github me-2"></i>GitHub</a>
                 </div>
-                <div class="container d-flex align-content-center mb-5">
-                    <ul class="navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link p-2 border rounded-5" target="_blank"><i class="bi bi-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link p-2 border rounded-5" target="_blank"><i class="bi bi-instagram"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link p-2 border rounded-5" target="_blank"><i class="bi bi-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="container p-0 mb-5">
-                    <button class="btn btn-light text-light fw-medium w-25" style="background-color: #EB6552;">Contact Me</button>
-                    <button class="btn btn-white text-dark border border-dark fw-medium ms-3">Previous Project</button>
-                </div>
-                <div class="container p-3 d-flex align-content-center rounded-3" style="background-color:#EB6552; border: 1px solid #EB6552;">
-                    <div class="container m-0 text-light" style="border-right: 1px solid white;">
-                        <h4 class="fw-bold">0+</h4>
-                        <h6 class="text-light">Experience</h6>
-                    </div>
-                    <div class="container m-0" style="border-right: 1px solid white;">
-                        <h4 class="fw-bold text-light">1+</h4>
-                        <h6 class="text-light">Projects</h6>
-                    </div>
-                    <div class="container m-0">
-                        <h4 class="fw-bold text-light">1+</h4>
-                        <h6 class="text-light">Clients</h6>
-                    </div>
+                <div class="container p-0">
+                    <button type="button" class="btn btn-dark fw-medium rounded-5" style="width: 15%;">Hire Me</button>
+                    <button type="button" class="btn btn-light ms-2 fw-medium rounded-5" style="width: 15%;">My Project</button>
                 </div>
             </div>
             <div class="container d-flex align-content-center justify-content-center">
-                <img src="/app/public/assets/images/profile2.jpg" alt="Profile" class="rounded-circle">
+                <img src="/app/public/assets/images/profile2.jpg" alt="Profile" class="rounded-5" height="550px" width="550px">
             </div>
         </div>
 
