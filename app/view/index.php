@@ -51,7 +51,7 @@
                         <a href="#" class="nav-link navigation fw-medium me-5">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link navigation fw-medium me-5">Contact</a>
+                        <a href="#contact" class="nav-link navigation fw-medium me-5">Contact</a>
                     </li>
                 </ul>
                 <button type="button" class="btn btn-dark text-light fw-medium">Hire Me<i class="bi bi-arrow-return-left ms-2"></i></button>
@@ -59,7 +59,7 @@
         </nav>
     </header>
 
-    <main>
+    <main style="min-height: 85vh;">
 
         <div class="container-fluid m-0 p-0 d-flex justify-content-center position-relative" style="top: 100px;">
             <div class="container p-5 d-flex flex-column">
@@ -68,7 +68,7 @@
                     <h1 class="text-dark fw-bold" style="font-size: 3em;">I am De Jesus Edgar a Independent Website Developer & Currently 3RD Year College Major in BSIT</h1>
                 </div>
                 <div class="container p-0 mb-5 d-flex align-content-center">
-                    <a href="#" class="nav-link visit w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-facebook me-2"></i>Facebook</a>
+                    <a href="https://web.facebook.com/edgar.dejesus.1420" class="nav-link visit w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-facebook me-2"></i>Facebook</a>
                     <a href="#" class="nav-link visit ms-3 w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-instagram me-2"></i>Instagram</a>
                     <a href="https://github.com/Edgar-De-Jesus-06" class="nav-link visit ms-3 w-auto fw-medium rounded-5" target="_blank"><i class="bi bi-github me-2"></i>GitHub</a>
                 </div>
@@ -83,6 +83,46 @@
         </div>
 
     </main>
+
+    <section style="min-height: 70vh;" id="contact">
+
+        <div class="container-fluid p-0 mt-5 d-flex justify-content-between">
+            <div class="container p-5 d-flex justify-content-center">
+                <img src="/app/public/assets/images/ContactImage.png" alt="Just Me Working" height="500px" width="500px">
+            </div>
+            <div class="container p-5">
+                <div class="container p-0 mb-3 w-75">
+                    <h5 class="fw-bold">Looks Like You Need Help!!!</h5>
+                    <h1 class="fw-bold">Reach Out!</h1>
+                    <p class="text-secondary fw-light">
+                        I usually respond within an hour to messages about projects, collaborations, freelance opportunities, 
+                        or anything else you'd like to discuss. Don't hesitate to get in touch!
+                    </p>
+                </div>
+                <div class="container p-0 w-75">
+                    <label for="name" class="form-label text-dark fw-medium">Name</label>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text text-secondary"><i class="bi bi-person-circle"></i></span>
+                        <input type="text" class="form-control bg-light" placeholder="John Paul" name="name" id="name">
+                    </div>
+                    <label for="email" class="form-label text-dark fw-medium">Email</label>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text text-secondary"><i class="bi bi-envelope-at"></i></span>
+                        <input type="email" class="form-control bg-light" placeholder="johnpaul@gmail.com" name="email" id="email">
+                    </div>
+                    <label for="message" class="form-label text-dark fw-medium">Message</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text text-secondary"><i class="bi bi-envelope-arrow-up-fill"></i></span>
+                        <textarea class="form-control bg-light" placeholder="What's the issue?"></textarea>
+                    </div>
+                    <div class="container p-0">
+                        <button type="submit" class="btn btn-dark text-light fw-medium w-100 rounded-5" name="SendMessage">Sent<i class="bi bi-send ms-2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 </body>
 
 </html>
