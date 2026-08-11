@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/assets/style/input.css">
     <link rel="stylesheet" href="../public/assets/style/header/navigation.css">
-    <link rel="stylesheet" href="/app/public/assets/style/AboutMe/background.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
     <title>De Jesus Portfolio</title>
